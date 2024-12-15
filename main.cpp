@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int n(float v);
 bool n3();
 int branching();
@@ -18,8 +16,6 @@ int* n2(float v2, double v3) {
     return message;
 }
 
-
-
 int main() {
 
     int a, b, ds, s;
@@ -28,7 +24,6 @@ int main() {
     float c = +(1.2 * 2 - (12 || 23) + n(2) / 23.4 + 6 % 3);
     char* str = "hello";
     bool* vector = nullptr;
-
     bool ternar = 2 >= 2 ? (g + 10) == 10 : false;
 
     g = 12;
@@ -46,16 +41,13 @@ int main() {
     return g;
 }
 
-
 int n(float v) {
     return (v + 2 / (12 * 12));
 }
 
-
 bool n3() {
 
 }
-
 
 int branching() {
     if (1 > 2) {
